@@ -31,7 +31,6 @@ namespace ConsoleApp3
                     {
                         answ = a + b;
                         Console.Write("Answer is ");
-                        Console.BackgroundColor = ConsoleColor.DarkGray;
                         Console.ForegroundColor = ConsoleColor.Green;
                         Console.Write("\n" + answ + "\n");
                         Console.ResetColor();
@@ -40,7 +39,6 @@ namespace ConsoleApp3
                     {
                         answ = a - b;
                         Console.Write("Answer is ");
-                        Console.BackgroundColor = ConsoleColor.DarkGray;
                         Console.ForegroundColor = ConsoleColor.Green;
                         Console.Write("\n" + answ + "\n");
                         Console.ResetColor();
@@ -49,7 +47,6 @@ namespace ConsoleApp3
                     {
                         answ = a * b;
                         Console.Write("Answer is ");
-                        Console.BackgroundColor = ConsoleColor.DarkGray;
                         Console.ForegroundColor = ConsoleColor.Green;
                         Console.Write("\n" + answ + "\n");
                         Console.ResetColor();
@@ -58,7 +55,6 @@ namespace ConsoleApp3
                     {
                         answ = a / b;
                         Console.Write("Answer is ");
-                        Console.BackgroundColor = ConsoleColor.DarkGray;
                         Console.ForegroundColor = ConsoleColor.Green;
                         Console.Write("\n" + answ + "\n");
                         Console.ResetColor();
